@@ -1,7 +1,7 @@
 # Supermariobros-PPO-pytorch
 rl on super-mario-bros
 
-![https]
+![avatar](/doc/timg.jpeg)
 
 # play with docker ,just run:
 docker run -v .x11/tmp:/.x11/tmp reg.... run.sh
