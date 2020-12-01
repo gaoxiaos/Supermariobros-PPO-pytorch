@@ -1,7 +1,7 @@
 # Supermariobros-PPO-pytorch
 rl(ppo) course on super-mario-bros
 
-![avatar](/doc/timg.jpeg)
+![avatar](/doc/timg.jpeg =100x100)
 
 # play with docker (ON your local computer with display),just run:
 docker run —-gpu all -v /tmp/.X11-unix:/tmp/.X11-unix registry.cn-shanghai.aliyuncs.com/tcc-public/super-mario-ppo:localdisplay 
