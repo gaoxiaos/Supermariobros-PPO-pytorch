@@ -31,5 +31,7 @@ the notebook can be find at course.ipynb、course2.ipynb
 remarks（添加请备注）：github rl
 ![avatar](/doc/20201201160554.jpg)
 
+![avatar](/doc/20201201160554.jpg)
+
 ## learn more in our DRL Training camp （aliyun tianchi）
 you can find some ppo info on https://tianchi.aliyun.com/specials/promotion/aicamprl
