@@ -1,17 +1,28 @@
 # Supermariobros-PPO-pytorch
-rl on super-mario-bros
+rl(ppo) course on super-mario-bros
 
-![https]
+![avatar](/doc/timg.jpeg)
 
-# play with docker ,just run:
-docker run -v .x11/tmp:/.x11/tmp reg.... run.sh
+# play with docker (ON your local computer with display),just run:
+docker run —-gpu all -v /tmp/.X11-unix:/tmp/.X11-unix registry.cn-shanghai.aliyuncs.com/tcc-public/super-mario-ppo:localdisplay 
 
-if you want debuge the code and run it in docker ,command like this:
-docker run -it -v ... /bin/bash
+if you want debuge the code and exec into container ,command like this:
+docker run —-gpu all -it -v /tmp/.X11-unix:/tmp/.X11-unix registry.cn-shanghai.aliyuncs.com/tcc-public/super-mario-ppo:localdisplay  /bin/bash
 
-# learn the totur in jupyter notebook:
-the notebook can be find at ..
+train the model:
+python ppo_lstm.py
 
-# contest with me:
+test on super-mario-bros(see the video of agent)
+python test_lstm.py
+
+# play with code
+
+
+# learn the course in jupyter notebook:
+the notebook can be find at course.ipynb
+
+# jion the rl Communication group,contest with me:
 webcode:
 
+# learn more in our DRL Training camp （aliyun tianchi）
+you can find some ppo info on www.tianchi.aliyun.com
