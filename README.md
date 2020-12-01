@@ -29,9 +29,10 @@ the notebook can be find at course.ipynb、course2.ipynb
 
 ## jion the rl Communication group,contact us:
 remarks（添加请备注）：github rl
+'''
 ![avatar](/doc/20201201160554.jpg)
-
-![avatar](/doc/20201201160554.jpg)
+'''
+<img src="/doc/20201201160554.jpg" width = "200" height = "200" alt="" align=center />
 
 ## learn more in our DRL Training camp （aliyun tianchi）
 you can find some ppo info on https://tianchi.aliyun.com/specials/promotion/aicamprl
