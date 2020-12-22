@@ -5,6 +5,8 @@ rl(ppo) course with super-mario-bros
 
 你可以直接在jupyter notebook中开始学习（course.ipynb、course2.ipynb）
 
+![](https://intranetproxy.alipay.com/skylark/lark/0/2020/gif/123965/1608559419878-0c6c1448-d778-4d6c-b7d4-a17d69667384.gif#align=left&display=inline&height=236&margin=%5Bobject%20Object%5D&originHeight=236&originWidth=254&size=0&status=done&style=none&width=254)
+
 <img src="/doc/timg.jpeg" width = "250" height = "150" alt="" align=center />
 
 ## how to run the code
