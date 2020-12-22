@@ -9,7 +9,7 @@ rl(ppo) course with super-mario-bros
 
 
 
-## how to run the code
+## run the code with docker (推荐)
 play with docker (ON your local computer with display),just run:
 
 推荐使用docker直接运行，可以无需关注软件环境
@@ -29,12 +29,34 @@ train the model:
 python ppo_lstm.py
 ```
 
-test on super-mario-bros(see the video of agent)
+test on super-mario-bros(see the video of agent):
 
-```
+```Python
 python test_lstm.py
 ```
 
+## run the code witch conda
+```Shell
+conda create -n ppo python=3.7
+conda activate ppo
+```
+python request:
+```
+torch torchvision
+gym_super_mario_bros
+spinup(要用源码安装：https://spinningup.openai.com/en/latest/user/installation.html)
+opencv-python
+
+```
+train:
+```Python
+python ppo_lstm.py
+```
+
+test:
+```Python
+python test_lstm.py
+```
 
 ## learn the course in jupyter notebook:
 the notebook can be find at course.ipynb、course2.ipynb
