@@ -1,12 +1,17 @@
 # Supermariobros-PPO-pytorch
 基于超级玛丽游戏的pytorch版本强化学习实践教程
+
 rl(ppo) course with super-mario-bros
+
 你可以直接在jupyter notebook中开始学习（course.ipynb、course2.ipynb）
+
 <img src="/doc/timg.jpeg" width = "250" height = "150" alt="" align=center />
 
-## how to run
+## how to run the code
 play with docker (ON your local computer with display),just run:
+
 推荐使用docker直接运行，可以无需关注软件环境
+
 ```
 docker run —-gpu all -v /tmp/.X11-unix:/tmp/.X11-unix registry.cn-shanghai.aliyuncs.com/tcc-public/super-mario-ppo:localdisplay 
 ```
@@ -17,11 +22,13 @@ docker run —-gpu all -it -v /tmp/.X11-unix:/tmp/.X11-unix registry.cn-shanghai
 ```
 
 train the model:
+
 ```Python
 python ppo_lstm.py
 ```
 
 test on super-mario-bros(see the video of agent)
+
 ```
 python test_lstm.py
 ```
