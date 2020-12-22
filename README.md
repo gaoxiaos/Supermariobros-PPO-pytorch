@@ -14,13 +14,13 @@ play with docker (ON your local computer with display),just run:
 
 推荐使用docker直接运行，可以无需关注软件环境
 
-```
-docker run —-gpu all -v /tmp/.X11-unix:/tmp/.X11-unix registry.cn-shanghai.aliyuncs.com/tcc-public/super-mario-ppo:localdisplay 
+```Shell
+docker run --gpus all -v /tmp/.X11-unix:/tmp/.X11-unix registry.cn-shanghai.aliyuncs.com/tcc-public/super-mario-ppo:localdisplay 
 ```
 
 if you want debuge the code and exec into container ,command like this:
-```
-docker run —-gpu all -it -v /tmp/.X11-unix:/tmp/.X11-unix registry.cn-shanghai.aliyuncs.com/tcc-public/super-mario-ppo:localdisplay  /bin/bash
+```Shell
+docker run --gpus all -it -v /tmp/.X11-unix:/tmp/.X11-unix registry.cn-shanghai.aliyuncs.com/tcc-public/super-mario-ppo:localdisplay  /bin/bash
 ```
 
 train the model:
